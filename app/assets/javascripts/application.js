@@ -16,5 +16,6 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
+//= require hogan.js
 //= require backbone/mstwjs_backbone
 //= require_tree .
