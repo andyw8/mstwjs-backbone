@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails-backbone'
+gem 'hogan_assets'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'pg'
 gem 'rails', '3.2.11'
+gem 'rails-backbone'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
