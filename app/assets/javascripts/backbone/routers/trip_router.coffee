@@ -1,4 +1,4 @@
-TimeTravel.Routers.TripRouter = Backbone.Router.extend
+class TimeTravel.Routers.TripRouter extends Backbone.Router
   routes:
     "": "index"
 

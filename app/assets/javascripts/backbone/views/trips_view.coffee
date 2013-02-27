@@ -1,4 +1,4 @@
-TimeTravel.Views.TripsView = Backbone.View.extend(
+class TimeTravel.Views.TripsView extends Backbone.View
   tagName:'section'
   className: 'all-trips span-20'
 
@@ -22,4 +22,3 @@ TimeTravel.Views.TripsView = Backbone.View.extend(
       collection: @collection
     )
     view.render()
-)

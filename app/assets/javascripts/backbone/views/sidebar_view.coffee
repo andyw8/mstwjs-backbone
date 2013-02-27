@@ -1,4 +1,4 @@
-TimeTravel.Views.SidebarView = Backbone.View.extend(
+class TimeTravel.Views.SidebarView extends Backbone.View
   tagName: 'section',
   className: 'span-4'
 
@@ -9,4 +9,4 @@ TimeTravel.Views.SidebarView = Backbone.View.extend(
     renderedTemplate = TimeTravel.template('sidebar').render()
     @$el.html renderedTemplate
     @
-)
+

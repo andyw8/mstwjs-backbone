@@ -1,4 +1,4 @@
-TimeTravel.Views.TopNavigationView = Backbone.View.extend(
+class TimeTravel.Views.TopNavigationView extends Backbone.View
   tagName: 'nav'
   className: 'topNav'
 
@@ -10,4 +10,4 @@ TimeTravel.Views.TopNavigationView = Backbone.View.extend(
     renderedTemplate = TimeTravel.template('top_nav').render()
     @$el.html renderedTemplate
     @
-)
+
