@@ -1,6 +1,6 @@
 class TimeTravel.Views.TopNavigationView extends Backbone.View
   tagName: 'nav'
-  className: 'topNav'
+  className: 'top-nav'
 
   initialize: ->
     # needed? spec still passes without

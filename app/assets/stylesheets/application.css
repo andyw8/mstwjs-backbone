@@ -11,3 +11,6 @@
  *= require_self
  *= require_tree .
  */
+
+.sidebar { background-color: red; }
+.top-nav { background-color: yellow; }

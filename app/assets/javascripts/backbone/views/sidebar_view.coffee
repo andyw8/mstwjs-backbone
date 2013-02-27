@@ -1,6 +1,6 @@
 class TimeTravel.Views.SidebarView extends Backbone.View
   tagName: 'section',
-  className: 'span-4'
+  className: 'sidebar'
 
   initialize: ->
     _.bindAll this, 'render'
