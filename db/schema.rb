@@ -16,8 +16,13 @@ ActiveRecord::Schema.define(:version => 20130226103121) do
   create_table "trips", :force => true do |t|
     t.string   "name"
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.date     "start_date"
+    t.date     "end_date"
+    t.string   "image_name"
+    t.decimal  "price",       :precision => 7, :scale => 2
+    t.string   "tag_line"
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
   end
 
 end
